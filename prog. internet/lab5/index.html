@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Web Calculadora</h1></header>
+    <div class="calculadora">
+        <input type="text" id="display">
+        <div class="linha">
+            <button onclick="limparTudo()">CE</button>
+            <button onclick="limpar()">C</button>
+            <button onclick="apagar()">⌫</button>
+            <button onclick="inserir('/')">/</button>
+        </div>
+        <div class="linha">
+            <button onclick="inserir('7')">7</button>
+            <button onclick="inserir('8')">8</button>
+            <button onclick="inserir('9')">9</button>
+            <button onclick="inserir('*')">*</button>
+        </div>
+        <div class="linha">
+            <button onclick="inserir('4')">4</button>
+            <button onclick="inserir('5')">5</button>
+            <button onclick="inserir('6')">6</button>
+            <button onclick="inserir('-')">-</button>
+        </div>
+        <div class="linha">
+            <button onclick="inserir('1')">1</button>
+            <button onclick="inserir('2')">2</button>
+            <button onclick="inserir('3')">3</button>
+            <button onclick="inserir('+')">+</button>
+        </div>
+        <div class="linha">
+            <button onclick="inverterSinal()">±</button>
+            <button onclick="inserir('0')">0</button>
+            <button onclick="inserir(',')">,</button>
+            <button onclick="calcular()">=</button>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    <footer><p>Criado por <a href="https://pedrofranca0.github.io/portifolio/">Pedro França</a></p></footer>
+</body>
+</html>
